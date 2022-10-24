@@ -1,1 +1,2 @@
-Programas criados para as disciplinas de Pós Graduação em Python da Unicesumar
+#PÓS GRADUAÇÃO
+Estudos criados para as disciplinas da Pós Graduação em Python da Unicesumar
