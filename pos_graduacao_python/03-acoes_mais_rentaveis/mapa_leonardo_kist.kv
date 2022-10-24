@@ -1,0 +1,17 @@
+<Corpo>:
+    BoxLayout:
+        orientation: "vertical"
+        id: box
+        size_hint_y: .8
+        pos_hint: {"top":1}
+
+    BoxLayout:
+        orientation: "vertical"
+        size_hint_y: .2
+        Label:
+            text: "10 AÇÕES MAIS RENTÁVEIS - ULTIMOS 6 MESES"
+        Button:
+            text: "OBTER DADOS"
+            on_release: root.obter()
+        Label:
+            text: "Leonardo Henrique Main Kist"
