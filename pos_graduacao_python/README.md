@@ -13,3 +13,9 @@ Atividade: Criar uma agenda onde possa ser possível:
 
 ### 03 - PYTHON AVANÇADO ESP  
 Atividade: Desenvolver um programa para listar as 10 açoes mais rentáveis da bolsa nos últimos 4 meses  
+
+### 04 - INTERFACE GRÁFICA COM O USUÁRIO EM PYTHON ESP  
+Atividade: Desenvolver uma aplicação para cadastro de imóveis, onde deverá conter:  
+      - interface de usuário,  
+      - banco de dados,  
+      - dados pertinentes ao imóvel.  
