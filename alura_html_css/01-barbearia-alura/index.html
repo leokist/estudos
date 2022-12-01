@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+    <!--informações a serem passadas para o navegador-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <!--<link rel="stylesheet" href="style-home.css">-->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <!--<style>
+            p {
+                text-align: center;
+            }
+        </style>-->
+    </head>
+
+    <!--Informações a serem exibidas na página-->
+    <body>
+        
+        <!--Cabeçalho-->
+        <header>
+            <!--<h1 class="titulo-principal">Baerbearia Alura</h1>-->
+            <div class="caixa">
+                <h1><img src="logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul:>
+                </nav>
+            </div>
+        </header>
+        
+        <img class="banner" src="banner.jpg">
+
+        <main>
+            <section class="principal">
+                <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+                <img class="utensilios" src="utensilios.jpg" alt="Utensilios">
+                <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+                <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em>></p>
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p> 
+            </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal">Nosso Estabelecimento</h3>
+                <p>Nosso estabelecimento está localizado no coração da cidade!</p>
+                <div class="mapa-conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.799360190847!2d-46.64881139218754!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1665503527499!5m2!1spt-BR!2sbr" width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            
+            <section class="beneficios">
+                <h3 class="titulo-principal">Beneficios</h3>
+
+                <div class="conteudo-beneficios">
+                    <ul class="lista-beneficios">
+                        <li class="itens">Atendimento ao clientes</li>
+                        <li class="itens">Espaço diferenciado</li>
+                        <li class="itens">Localização</li>
+                        <li class="itens">Profissionais Qualificados</li>
+                        <li class="itens">Pontualidade</li>
+                        <li class="itens">Limpeza</li>
+                    </ul><img src="beneficios.jpg" class="imagem-beneficios">
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </section>
+        </main>
+
+    </body>
+
+    <footer>
+        <img src="logo-branco.png">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+
+</html>
+
+<!--
+#TAGS:
+#h1: título 1
+#h2: título 2
+#h3: título 3
+#h4: título 4
+#h5: título 5
+#h6: título 6
+#p: representa um parágrafo
+#strong: da alta importância, deixando em negrito
+#em: da enfase, deixando em itálico
+#DOCTYPE: define a versão do html
+#html: define o conteúdo a ser renderizado no navegador
+#head: separa as informações que são passadas pro navegador
+#header: é o cabeçalho da página
+#meta: define os metadados da página, fica sempre dentro de head
+#title: define o título da página
+#body: separa o conteúdo da página
+#style: define a formatação dos elementos
+#link: faz link com arquivo externo
+#img: chama uma imagem na página
+#ul: unordened list
+#ol: ordered list
+#li: list item
+#div: divide o conteúdo em seções, e não altera nada visualmente pelo html so no css
+#a: ancora, transforma em um link que redireciona para uma página de referência
+
+PROPRIEDADES
+#lang: define a linguagem da página, usado dentro da tag html
+#charset: informa o encoding da página, usado dentro da tag meta
+#style: define o estilo dos elementos
+#rel: 
+#href: arquivo de referência
+#src: significa source, indica o cmainho do arquivo
+-->
+
+<!--
+PROPRIEDADES CSS
+#text-align: valores: center
+#font-size: valores: 20px
+#background: cor de fundo
+#color: cor do texto
+
+CSS INLINE:
+- O estilo deve ser aplicado em cada tag, e irá influenciar só aquela tag
+- É moroso e inviável para alterações em grandes projetos
+
+CSS TAG STYLE:
+- O estilo é inserido dentro da tag style
+- É aplicado a todos os elementos do mesmo tipo ao qual foi formatado
+
+CSS ARQUIVO EXTERNO:
+- A formatação fica toda no arquivo externo
+- É o mais comum e mais fácil de fazer alterações
+
+Declaração Identificador e Classe
+Para identificador se usa # no css
+Para uma classe se usa . no css
+
+
+-->
+
+<!--
+CORES
+
+RGB: Red Green Blue
+0-255
+0: AUSÊNCIA
+255: MÁXIMO
+
+HEXADECIMAL
+# _ _ _ _ _ _ 
+  R R G G B B
+
+0: AUSÊNCIA DE COR
+F: COR VALOR MÁXIMO
+
+VERMELHO:
+#FF0000
+
+CSS = rgb(255,255,255) branco
+    = rgb(0,0,255) azul
+
+-->
